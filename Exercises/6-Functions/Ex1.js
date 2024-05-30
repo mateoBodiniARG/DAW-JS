@@ -6,7 +6,7 @@ function suma(num1, num2) {
   return num1 + num2;
 }
 var result = suma(5, 10);
-console.log(result);
+alert(`el resultado de la sumas es ${result}`)
 
 // b. A la función suma anterior, agregarle una validación para controlar si alguno de
 // los parámetros no es un número, mostrar una alerta aclarando que uno de los

@@ -23,8 +23,8 @@ console.log(months[4], months[10]);
 console.log(months.sort());
 
 // c. Agregar un elemento al principio y al final del array (utilizar unshift y push).
-months.unshift("Inicio");
-months.push("Fin");
+months.unshift("ElementoInicio");
+months.push("ElementoFin");
 console.log(months);
 
 // d. Quitar un elemento del principio y del final del array (utilizar shift y pop).
@@ -40,6 +40,6 @@ console.log(months.reverse());
 console.log(months.join("-"));
 
 // g. Crear una copia del array de meses que contenga desde Mayo hasta Noviembre
-// (utilizar slice).
+// (utilizar slice)
 var monthsCopy = months.slice(4, 11);
 console.log(monthsCopy);

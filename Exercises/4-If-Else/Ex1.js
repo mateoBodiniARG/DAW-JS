@@ -6,9 +6,9 @@
 
 var random = Math.random();
 if (random >= 0.5) {
-  alert("Greater than 0,5");
+  alert(`${random} - Greater than 0.5`);
 } else {
-  alert("Lower than 0,5");
+  alert(`${random} - Lower than 0.5`);
 }
 
 // b. Crear una variable “Age” que contenga un número entero entre 0 y 100 y
@@ -23,23 +23,23 @@ if (random >= 0.5) {
 
 var age = Math.floor(Math.random() * 100);
 if (age < 2) {
-  alert("Bebe");
+  alert(`${age} años - Bebe`);
 }
 if (age >= 2 && age <= 12) {
-  alert("Niño");
+  alert(`${age} años - Niño`);
 }
 if (age >= 13 && age <= 19) {
-  alert("Adolescente");
+  alert(`${age} años - Adolescente`);
 }
 if (age >= 20 && age <= 30) {
-  alert("Joven");
+  alert(`${age} años - Joven`);
 }
 if (age >= 31 && age <= 60) {
-  alert("Adulto");
+  alert(`${age} años - Adulto`);
 }
 if (age >= 61 && age <= 75) {
-  alert("Adulto mayor");
+  alert(`${age} años - Adulto mayor`);
 }
 if (age > 75) {
-  alert("Anciano");
+  alert(`${age} años - Anciano`);
 }

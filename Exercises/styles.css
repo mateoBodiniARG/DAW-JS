@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.secondary-news {
+  margin: 20px;
+}
+
+.secondary-news h2 {
+  margin: 10px 10px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.secondary-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.secondary-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.4s;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.secondary-card:hover {
+  transform: translateY(-5px);
+}
+h2 span{
+    color: #ffe600;
+    
+}
+b{
+    color: #ffe600;
+
+}
+
+.secondary-card span {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.secondary-card p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.secondary-card a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.secondary-card a:hover {
+  background-color: #ffffff;
+  color: black;
+}
